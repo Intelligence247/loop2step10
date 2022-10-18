@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f7f9;
+}
+
+.header1 {
+    background-color: white;
+    padding: 1rem 13rem;
+    height: 6rem;
+    border-bottom: 1px solid #e4e4e4;
+
+
+}
+
+
+.header1 img {
+    width: 2rem;
+    height: 2rem;
+}
+
+input {
+    border: none;
+    width: 4rem;
+    font-size: 1rem;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.input img {
+    width: 1.5rem;
+}
+
+.input {
+    display: flex;
+    width: 9rem;
+    height: 2rem;
+    justify-content: space-between;
+    border: 1px solid #e4e4e4;
+    border-radius: 20px;
+    padding: 0rem 0.6rem;
+}
+
+.overallheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.avatar1 img {
+    border-radius: 50%;
+}
+
+.file {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.overallheader p,
+.file {
+    margin-bottom: 0.2rem;
+    font-size: large;
+}
+
+.file:hover {
+    margin-bottom: 0.3rem;
+}
+
+.overallheader p:hover {
+    cursor: pointer;
+    margin-bottom: 0.4rem;
+}
+
+.header2 {
+    display: flex;
+    gap: 3rem;
+    padding-left: 15rem;
+    height: 4rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    align-items: center;
+    font-size: large;
+    color: #c5c5c5;
+    font-weight: 700;
+
+}
+
+.overallaside {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+aside.asideleft {
+    width: 15rem;
+    height: 38rem;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    margin-left: 13rem;
+
+}
+
+.billgate {
+    text-align: center;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 2rem;
+}
+
+.billgate img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 1rem 3rem;
+
+}
+
+.connect {
+    color: blue;
+}
+
+.follow {
+    width: 8rem;
+    height: 2rem;
+    background-color: blue;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 20px;
+
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.billtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.billtext p:nth-child(3) {
+    color: #c5c5c5;
+}
+
+.connect {
+    border: 1px solid #6aaadd;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 8rem;
+    height: 2rem;
+    padding-top: 0.2rem;
+    color: #6aaadd;
+}
+
+span {
+    font-size: 15px;
+}
+
+.followers {
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    border-bottom: 1px solid #e4e4e4;
+    /* padding-bottom: 5rem; */
+    align-items: center;
+    text-align: center;
+}
+
+.connect200 {
+    border-right: 1px solid #e4e4e4;
+    padding-right: 1.5rem;
+
+}
+
+.follower19 p:nth-child(2),
+.connect200 p:nth-child(2) {
+    color: #c5c5c5;
+}
+
+.follower19 p:first-child,
+.connect200 p:first-child {
+    font-weight: 800;
+}
+
+.globe img,
+.download img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.linkd,
+.globe,
+.download {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #c5c5c5;
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+.globe {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.download {
+    padding-top: 1rem;
+}
+
+.asidecenter,
+.asidecentersecond {
+    width: 38rem;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    height: 23rem;
+
+
+}
+
+.section123 {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.asidecenter img {
+    width: 11rem;
+}
+
+.section1 {
+    width: 12rem;
+    font-size: large;
+}
+
+.section1 p:nth-child(3) {
+    color: #c5c5c5;
+    font-size: small;
+}
+
+.asidecenterheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e4e4e4;
+
+}
+
+.lessthan {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.less {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+.asidecentersecond {
+    height: 50rem;
+    padding: 1rem;
+}
