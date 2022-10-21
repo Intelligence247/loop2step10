@@ -96,6 +96,11 @@ input:focus {
 
 }
 
+.header2 p:hover {
+    border-bottom: 1.5px solid blue;
+    cursor: pointer;
+}
+
 .overallaside {
     display: flex;
     margin-top: 2rem;
@@ -129,6 +134,14 @@ aside.asideleft {
     color: blue;
 }
 
+.linkd:hover,
+.globe:hover,
+.download:hover {
+    cursor: pointer;
+    text-decoration: underline #e4e4e4;
+}
+
+
 .follow {
     width: 8rem;
     height: 2rem;
@@ -136,6 +149,7 @@ aside.asideleft {
     padding: 0.5rem;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
 
 }
 
@@ -162,6 +176,7 @@ h2 {
     height: 2rem;
     padding-top: 0.2rem;
     color: #6aaadd;
+    cursor: pointer;
 }
 
 span {
@@ -252,6 +267,13 @@ span {
     font-size: small;
 }
 
+
+
+.section1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .asidecenterheader {
     display: flex;
     align-items: center;
@@ -277,6 +299,7 @@ span {
     align-items: center;
     font-size: large;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .asidecentersecond {
@@ -350,6 +373,10 @@ span {
 .present1 p:nth-child(3) {
     color: #6aaadd;
 
+}
+
+.present1 p:nth-child(3):hover {
+    text-decoration: underline;
 }
 
 .margin {
@@ -479,6 +506,11 @@ span {
     display: flex;
     justify-content: space-between;
     margin: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.blue p:hover {
+    text-decoration: underline;
 }
 
 .plus2 {
@@ -486,9 +518,10 @@ span {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
-    border: 1px solid #a5cced;
+    border: 1px solid black;
     margin-right: 0.5rem;
     padding: 0.2rem 0.3rem 0.3rem 0.4rem;
+    color: black;
 }
 
 .blue {
@@ -507,8 +540,13 @@ span {
     margin-top: 1.5rem;
 }
 
+.see:hover {
+    background-color: #eff4f7;
+    cursor: pointer;
+}
+
 #footer {
-    color: #c5c5c5;
+    color: #5c3a3a;
     border-top: 1px solid #c5c5c5;
     text-align: center;
     padding: 1rem;
