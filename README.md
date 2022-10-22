@@ -1,5 +1,7 @@
 # loop2step10
 *An implementation of loop2step10 clone with html and css*
+## Getting Started
+Clone or download this repository and run with a local server of open `index.html` with your favorite browser
 ## Prequisite
 - Your browser version should be up to date for better experience
 ## Features
@@ -9,6 +11,9 @@
 ## Tech/framework used
 - Html
 - Css
+## Preview
+[demo](https://rawcdn.githack.com/Intelligence247/loop2step10/15432a4ee861003b7d06ca0c4ea95ff25962a9ac/index.html)
+![screenshot](/media/sketch.png)
 ## Contact
 If you want to contact me you can reach me at
 - https://github.com/Intelligence247 or
