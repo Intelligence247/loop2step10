@@ -105,7 +105,9 @@ aside.overallaside {
     display: flex;
     margin-top: 2rem;
     gap: 1.5rem;
-    margin-left: 7rem;
+    width: 80%;
+    margin: auto;
+
 
 }
 
