@@ -50,6 +50,10 @@ input:focus {
     padding: 0rem 0.6rem;
 }
 
+p.red {
+    color: red;
+}
+
 .overallheader {
     display: flex;
     justify-content: space-between;
@@ -59,27 +63,38 @@ input:focus {
 
 .avatar1 img {
     border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
 }
 
 .file {
     display: flex;
-    gap: 1rem;
+    gap: 1.3rem;
     cursor: pointer;
+    height: 6rem;
+    align-items: center;
+
 }
 
-.overallheader p,
-.file {
+.overallheader p {
     margin-bottom: 0.2rem;
     font-size: large;
 }
 
-.file:hover {
-    margin-bottom: 0.3rem;
+.file img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.file img:hover {
+    margin-bottom: 0.4rem;
+    transition: all 0.3s linear;
 }
 
 .overallheader p:hover {
     cursor: pointer;
     margin-bottom: 0.4rem;
+    transition: all 0.3s linear;
 }
 
 .header2 {
@@ -273,7 +288,7 @@ span {
 
 
 
-.section1:hover {
+.section1:hover p {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -376,6 +391,7 @@ span {
 
 .present1 p:nth-child(3) {
     color: #6aaadd;
+    cursor: pointer;
 
 }
 
