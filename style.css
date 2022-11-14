@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+:root {
+    font-size: 16px;
+}
+
 body {
     background-color: #f5f7f9;
 
@@ -101,19 +105,26 @@ p.red {
     display: flex;
     gap: 3rem;
     padding-left: 15rem;
-    height: 4rem;
+    height: 3rem;
     background-color: #fff;
     border-bottom: 1px solid #e4e4e4;
     align-items: center;
     font-size: large;
     color: #c5c5c5;
     font-weight: 700;
+}
 
+.header2 p {
+    display: flex;
+    align-items: center;
+    height: 3rem;
 }
 
 .header2 p:hover {
-    border-bottom: 1.5px solid blue;
+    border-bottom: 2px solid blue;
     cursor: pointer;
+    transform: scale(1.001);
+
 }
 
 aside.overallaside {
@@ -288,7 +299,7 @@ span {
 
 
 
-.section1:hover p {
+.section1:hover p:nth-child(2) {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -615,3 +626,20 @@ span {
     color: #c5c5c5;
     text-align: center;
 }
+
+
+/* @media (max-width:640px) {
+    :root{
+        font-size: 10px;
+    }
+    aside.overallaside {
+        display: flex;
+        margin-top: 2rem;
+        gap: 2rem;
+        width: 80%;
+        flex-direction: column;
+        margin: auto;
+
+
+    } 
+}*/
