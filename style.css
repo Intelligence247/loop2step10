@@ -98,7 +98,7 @@ p.red {
 .overallheader p:hover {
     cursor: pointer;
     margin-bottom: 0.4rem;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .header2 {
@@ -118,6 +118,7 @@ p.red {
     display: flex;
     align-items: center;
     height: 3rem;
+    padding: 0rem 1rem;
 }
 
 .header2 p:hover {
@@ -294,7 +295,7 @@ span {
 
 .section1 p:nth-child(3) {
     color: #c5c5c5;
-    font-size: small;
+    font-size: 10px;
 }
 
 
@@ -627,19 +628,351 @@ span {
     text-align: center;
 }
 
+.mobile-nav {
+    display: none;
+}
 
-/* @media (max-width:640px) {
-    :root{
-        font-size: 10px;
+@media (max-width:640px) {
+    :root {
+        font-size: 20px;
     }
+
     aside.overallaside {
         display: flex;
         margin-top: 2rem;
         gap: 2rem;
-        width: 80%;
+        width: 100%;
         flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
         margin: auto;
 
 
-    } 
-}*/
+    }
+
+    .header1 {
+        display: none;
+        margin: none;
+        padding: none;
+    }
+
+    .mobile-nav {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 57rem;
+        padding: 0;
+        margin: 0;
+        padding: 0.5rem 1rem;
+    }
+
+    .header2 {
+        padding-left: 1rem;
+        /* gap: 4rem; */
+        justify-content: space-around;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        background-color: white;
+        width: 55rem;
+        margin-left: 1rem;
+    }
+
+    .mobile-nav img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .mobile-nav p {
+        font-size: 4rem;
+        font-weight: 900;
+    }
+
+    aside.asideleft,
+    .asidecenter,
+    .asidecentersecond,
+    .asidecenterthird,
+    .asidecenterfourth,
+    .asideright,
+    footer#footer {
+        width: 55rem;
+        height: auto;
+        margin-left: 1rem;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .billgate img {
+        width: 25rem;
+        height: 25rem;
+
+    }
+
+    .billgate {
+        font-size: 5rem;
+    }
+
+    .billtext h2 {
+        font-size: 5rem;
+    }
+
+    .follow,
+    .connect,
+    .connect span {
+        height: 7rem;
+        width: 23rem;
+        font-size: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    .followers {
+        margin: 2rem 0rem;
+        font-size: 3.5rem;
+        height: 8rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .cursor img {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 2rem;
+
+    }
+
+    .cursor span {
+        font-size: 3rem;
+    }
+
+
+
+    .asidecenter img {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 2rem;
+
+    }
+
+    .section123 {
+        gap: 2rem;
+
+    }
+
+    .section1 {
+        width: max-content;
+    }
+
+    .asidecenter {
+        margin-left: 2rem;
+    }
+
+    .section1 p:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .section1 p:nth-child(3) {
+        font-size: xx-large;
+    }
+
+    .lore {
+        font-size: 2.8rem;
+    }
+
+    .asidecentersecond h1 {
+        font-size: 4rem;
+    }
+
+    .sum p:nth-child(2) {
+        font-size: 3.2rem;
+
+    }
+
+    .sum img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .present1 p {
+        font-size: 2rem;
+    }
+
+    .present1 p:first-child,
+    .present1 p:nth-child(2),
+    .present1 p:nth-child(3) {
+        font-size: 2.2rem;
+    }
+
+    .micro img {
+        width: 15rem;
+    }
+
+    .present12 {
+
+        gap: 5rem;
+        line-height: 3rem;
+    }
+
+    .circle1,
+    .circle2 {
+        width: 1.2rem;
+        height: 1.2rem;
+        border: 1px solid #e4e4e4;
+        border-radius: 50%;
+
+    }
+
+    .line {
+        height: 8rem;
+        width: 5px;
+
+
+    }
+
+    .bothline {
+        width: 4.5rem;
+    }
+
+    .lessthan {
+        gap: 1rem;
+
+    }
+
+    .less {
+        width: 5rem;
+        height: 5rem;
+        border: 2px solid black;
+        font-size: xx-large;
+
+    }
+
+    .plus,
+    .socialright img {
+        height: 5rem;
+        width: 5rem;
+        font-size: xx-large;
+    }
+
+    .lorem1 {
+        width: 19rem;
+        height: 26rem;
+        border: 1px solid #c5c5c5;
+        padding: 1rem;
+    }
+
+    .steve img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .stevetext p:first-child {
+        font-size: 1.8rem;
+    }
+
+    .stevetext p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .stevetext {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0.5rem;
+        align-items: flex-start;
+        width: max-content;
+    }
+
+    .steve {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .amazon img {
+        width: 13rem;
+
+    }
+
+    .microsoft {
+        display: flex;
+        margin: 2rem 1rem;
+        cursor: pointer;
+        align-items: center;
+        justify-content: baseline;
+    }
+
+    .plus2 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin-right: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 1.8rem;
+    }
+
+    .blue p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .see {
+        width: max-content;
+        height: max-content;
+        font-size: 3rem;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+    }
+
+    .more {
+        font-size: larger;
+    }
+
+    .xx2 {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    .xx2 img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .steveimg img {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .steveimg span {
+        font-size: 4rem;
+    }
+
+    .steveimg {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .stevetext p:first-child {
+        font-size: 4rem;
+    }
+
+    .stevetext p:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .xx3 p:first-child {
+        font-size: 2rem;
+    }
+
+    .xx3 p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+}
